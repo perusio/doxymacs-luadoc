@@ -70,7 +70,7 @@
             "-- " p > n
             "--" > n))
   ;; Multiline comment template.
-  (setq doxymacs-blank-multiline-comment-templave  '("--" > n "-- " p > n "--" > n))
+  (setq doxymacs-blank-multiline-comment-template  '("--" > n "-- " p > n "--" > n))
   ;; Single line comment template.
   (setq doxymacs-blank-singleline-comment-template '("-- " > p))
   ;; Function comment template.
