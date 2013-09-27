@@ -14,7 +14,7 @@ documentation.
  1. Add the path to the `doxymacs-luadoc.el` and/or `doxymacs-luadoc.elc`
     if you byte compile the file to Emacs load path. For example:
     
-        ```Lisp
+        ```Emacs Lisp
         (let ((absolute-path (expand-file-name "/path/to/dir")))
           (unless (member (absolute-path  load-path)
             (add-to-list 'load-path absolute-path)))
@@ -28,7 +28,7 @@ documentation.
  2. Require the feature:
  
            
-        ```Lisp
+        ```Emacs Lisp
         (require 'doxymacs-luadoc)
         
         ```
