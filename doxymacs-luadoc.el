@@ -88,7 +88,6 @@
                           doxymacs-void-types)
                    '(l "--" > n "-- " (doxymacs-doxygen-command-char)
                        "return " (p "Returns: ") > n))
-                 "--" '> 'n
                  "--" '>)
               (progn
                 (error "Can't find next function declaration.")
