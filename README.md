@@ -11,8 +11,8 @@ documentation.
 
 ## Installation
 
- 1. Add the path to the `doxymacs-luadoc.el` and/or `doxymacs-luadoc.elc`
-    if you byte compile the file to Emacs load path. For example:
+ 1. Add the path to the `doxymacs-luadoc.el` and/or `doxymacs-luadoc.elc`,
+    if you byte compile the file, to Emacs load path. For example:
     
    ```lisp
    (let ((absolute-path (expand-file-name "/path/to/dir")))
