@@ -81,7 +81,6 @@
                  'l
                  "--- " 'p '> 'n
                  "--" '> 'n
-                 "--" '> 'n
                  (doxymacs-parm-tempo-element (cdr (assoc 'args next-func)))
                  (unless (string-match
                           (regexp-quote (cdr (assoc 'return next-func)))
