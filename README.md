@@ -16,7 +16,7 @@ documentation.
     
    ```lisp
    (let ((absolute-path (expand-file-name "/path/to/dir")))
-      (unless (member (absolute-path  load-path)
+      (unless (member (absolute-path load-path)
          (add-to-list 'load-path absolute-path)))
    ```
    where `"/path/to/dir"` is the path to the **directory**
